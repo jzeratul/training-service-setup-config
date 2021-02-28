@@ -1,0 +1,27 @@
+## Maven
+/target
+/*/target
+
+## VSCode
+/.history
+/*/.history
+
+## IntelliJ
+.idea/
+*.iml
+
+
+## Log files
+logs/
+*.log
+
+## Tomcat working directory
+work/
+
+.DS_Store
+/*/tmp
+
+## Temp files / directories created by running Docker containers
+hsperfdata_root/
+tomcat-docbase.*/
+
