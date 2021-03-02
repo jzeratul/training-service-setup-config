@@ -1,6 +1,3 @@
-server:
-  port: 9603
-
 spring:
   application:
     name: admin-server
