@@ -1,2 +1,31 @@
-funny:
-  message: "I start in the config server"
+server:
+  port: 9604
+
+spring:
+  application:
+    name: training-service1
+
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: '*'
+      base-path: /actuator
+  endpoint:
+    metrics:
+      enabled: true
+    info:
+      enabled: true
+    health:
+      show-details: always
+  info:
+    build:
+      enabled: true
+    defaults:
+      enabled: true
+    env:
+      enabled: true
+    git:
+      mode: full
+      enabled: true

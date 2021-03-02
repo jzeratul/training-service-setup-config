@@ -1,9 +1,11 @@
 server:
-  port: 9605
+  port: 9603
 
 spring:
   application:
-    name: training-service2
+    name: admin-server
+  jmx:
+    enabled: true
 
 management:
   endpoints:
