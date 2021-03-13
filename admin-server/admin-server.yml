@@ -2,8 +2,6 @@ spring:
   jmx:
     enabled: true
 
-test: 'test'
-
 management:
   endpoints:
     enabled-by-default: true
